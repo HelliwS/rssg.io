@@ -1,0 +1,217 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+.main{
+}
+
+.navbar{
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+  font-weight:bold;
+  font-family: helvetica;
+  color:black;
+  padding:20px;
+  font-size:20px;
+}
+a:visited{
+  color:black;
+}
+.navbar a{
+  color:black;
+  border-right: 2px solid red;
+  padding: 20px;
+  margin:auto;
+  text-decoration: none;
+}
+.navbar a:hover{
+    transition: ease-in-out;
+    transition-duration: 0.25s;
+    background-color: red;
+    color: white;
+
+}
+.navbar li{
+  display: inline;
+  text-align: center;
+    line-height: 0px;
+}
+.navbar a:last-child{
+  border-right: none;
+}
+.top {
+  height: 300px;
+  width: 1000px;
+  padding-top: 100px;
+  margin:auto;
+}
+.logo {
+  float: left;
+  padding-top:20px;
+}
+.HerMajestyIncorporated{
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  width:450px;
+  margin: auto;
+}
+.HerMajestyIncorporated span{
+  color: #cc2900;
+}
+.HerMajestyIncorporated img{
+  margin:auto;
+  margin-left:20px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .5), 0 2px 20px 0 rgba(0, 0, 0, .025);
+}
+.HerMajestyIncorporated p{
+  font-size: 26px;
+  color:gray;
+  margin: auto;
+  align-self: center;
+}
+.bigwrapper{
+  max-width:1000px;
+  margin:auto;
+  background-color:white;
+}
+#showcase{
+  background-image:url("../images/DTAD_Home_Hero_4.jpg");
+  max-height:auto;
+  max-width: auto;
+
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding: 250px;
+  padding-top: 600px;
+}
+#sponsortitle{
+  text-align:center;
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 1000px;
+  font-family: helvetica;
+  font-size: 20px;
+}
+#sponsortitle span{
+  color:#cc2900;
+}
+#sponsortitle p, h1{
+  margin: 20px;
+}
+
+.sponsors{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:auto;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .5), 0 2px 20px 0 rgba(0, 0, 0, .025);
+  grid-auto-rows: minmax(300px, auto);
+  text-align:center;
+  overflow:auto;
+}
+.sponsors *{
+  max-height: 300px;
+  max-width: 300px;
+  margin:auto;
+
+
+}
+.sponsors h1{
+  grid-row: auto;
+  margin:auto;
+  text-align: center;
+}
+.sponsors img{
+  text-align: center;
+}
+
+.crowneplazalogo{
+  filter: invert(100%);
+}
+.victors{
+  filter: invert(100%);
+}
+.spinneys{
+}
+.starsnbars{
+}
+
+
+
+
+
+footer{
+  height: 200px;
+  padding:0px;
+  margin:0;
+  background-color: gray;
+  color:white;
+  font-family: helvetica;
+}
+.Footerinfo{
+  width: 1000px;
+  height: 100px;
+  margin:auto;
+  padding-top: 40px;
+  border-bottom: 1px solid black;
+}
+.RSSGhome{
+  float:left;
+  padding-left: 50px;
+}
+.contactus{
+  float:left;
+  padding-left: 10px;
+}
+.copyright{
+  width: 1000px;
+  display: block;
+  margin:auto;
+}
+#siteseal{
+  float:right;
+}
+@media (max-width:1000px) {
+  .top {
+    height: 500px;
+    width: 400px;
+    padding-top: 40px;
+    margin:auto;
+  }
+  .logo {
+    float: none;
+    padding-top:20px;
+  }
+  .HerMajestyIncorporated{
+    float: none;
+    display: flex;
+    flex-direction: row-reverse;
+    width:450px;
+    margin: auto;
+  }
+
+  #showcase{
+    background-image:url("../images/DTAD_Home_Hero_4.jpg");
+    max-height:auto;
+    max-width: auto;
+background-color: #444;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    background-size: contain;
+    padding: 100px;
+    padding-top: 400px;
+  }
+  .sponsors{
+
+  }
+  .sponsors img{
+    height:70%;
+    width:70%;
+  }
+  .sponsors h1{
+  }
