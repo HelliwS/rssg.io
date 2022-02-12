@@ -32,7 +32,7 @@
       //passed
 
       //Reciepient Email
-      $toEmail = 'rssgauh@gmail.com';
+      $toEmail = 'stevehelliwell12@gmail.com';
       $subject = 'Contact Request From ' .$name;
       $body = '<h2> Contact Request </h2>
         <h4>Name: </h4><p>'.$name.'</p>
